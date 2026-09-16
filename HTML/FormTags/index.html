@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Forms</title>
+  </head>
+  <body>
+   <fieldset>
+    <legend align="center"> Basic Form</legend>
+     <form>
+      <label for="FullName">Full Name : </label>
+      <input
+        type="text"
+        name="YourName"
+        id="FullName"
+        placeholder="Enter Your Name"
+      />
+      <br /><br />
+      <label for="email">Email : </label>
+      <input type="email" name="Youremail" id="email" placeholder="Your Email" />
+      <br /><br />
+      <label for="password">Password : </label>
+      <input
+        type="password"
+        name="Namepassword"
+        id="password"
+        placeholder="Enter Your Password"
+      />
+      <br /><br />
+      <label for="ConfirmPassword">Confirm Password : </label>
+      <input
+        type="password"
+        name="ConfirmPassword"
+        id="ConfirmPassword"
+        placeholder="Confirm Your Password"
+      />
+      <br>
+      <br>
+      <label for="dob">Date of Birth : </label>
+      <input type="date" name="dob" id="dob">
+      <br>
+      <br>
+      <label for="tob">Time of Birth : </label>
+      <input type="time" name="tob" id="tob">
+      <br>
+      <br>
+      <label for="jointimedate">Joining Time : </label>
+      <input type="datetime-local" name="joindate" id="jointimedate">
+      <br>
+      <br>
+      <label for="volume">Volume : </label>
+      <input type="range" name="volume" id="volume" min="0" max="100" value="50">
+      <br>
+      <br>
+      <label for="mob">Phone Number : </label>
+      <input type="number" name="mob" id="mob">
+      <br>
+      <br>
+      <label for="resume">Resume : </label>
+      <input type="file" name="resume" id="resume">
+      <br>
+      <br>
+      <label for="address">Address : </label>
+      <textarea name="address" id="address"></textarea>
+      <br>
+      <br>
+      <label for="course">Course : </label>
+      <select name="course" id="course">
+        <option value="">--Select Course--</option>
+        <option value="Btech">Btech</option>
+        <option value="BBA">BBA</option>
+        <option value="BCA">BCA</option>
+        <option value="Mtech">Mtech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+      </select>
+      <br>
+      <br>
+                            <!-- radio button -->
+      <label for="gender">Gender : </label>
+      <input type="radio" name="gender" id="male" value="male">
+      <span>Male</span>
+      <input type="radio" name="gender" id="Female" value="Female">
+      <span>Female</span>
+      <input type="radio" name="gender" id="other" value="other">
+      <span>other</span>
+      <br>
+      <br>
+                           <!-- checkbox button -->
+      <label for="skillset">Skill Set : </label>
+      <input type="checkbox" name="skillset" id="java" value="java">
+      <span>java</span>
+      <input type="checkbox" name="skillset" id="DSA" value="DSA">
+      <span>DSA</span>
+      <input type="checkbox" name="skillset" id="html" value="html">
+      <span>html</span>
+      <button>Submit</button>
+    </form>
+   </fieldset>
+                            <!-- image upload -->
+   <img src="./download (1).jpeg" alt="" width="500px" height="500px">
+  </body>
+</html>
