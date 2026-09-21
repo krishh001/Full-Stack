@@ -3,59 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 5</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Task 1</h1>
-<div class="resume">
-    <aside class="leftside">
-        <div class="profile">
-            <div class="profile-image">
-                <img src="./download (1).jpeg" alt="Profile Photo">
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <h2>Login</h2>
+
+            <!-- Email -->
+            <div class="input-box">
+                <span class="icon">✉</span>
+                <input type="email" placeholder="Enter your email">
             </div>
-            <h1>LOREM IPSUM</h1>
-            <h3>SOFTWARE ENGINEER</h3>
+
+            <!-- Password -->
+            <div class="input-box password-box">
+                <span class="icon">♙</span>
+                <input type="password" placeholder="Confirm a password">
+                <span class="eye">◉</span>
+            </div>
+
+            <!-- Remember + Forgot -->
+            <div class="options">
+                <label>
+                    <input type="checkbox">
+                    <span>Remember me</span>
+                </label>
+
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <!-- Login Button -->
+            <button class="login-btn">Login Now</button>
+
+            <!-- Signup -->
+            <p class="signup">
+                Don't have an account?
+                <a href="#">Signup now</a>
+            </p>
+
         </div>
 
-        <section class="leftsection">
-            <h2>CONTACT INFO</h2>
-            <p>
-                <i class="phone">Phone : </i>
-                +919241354376
-            </p>
-            <p>
-                <i class="email">Email : </i>
-                loremipsum@gmail.com
-            </p>
-            <p>
-                <i class="web">Website : </i>
-                loremipsum.web
-            </p>
-            <p>
-                <i class="github">Github</i>
-                loremipsum.github.com
-            </p>
-            <p>
-                <i class="address">Address : </i>
-                70 Dream St, USA
-            </p>
-        </section>
-
-        <section class="leftsection">
-            <h2>SKILLS</h2>
-            <p>PYTHON3, DJANGO & FLASK</p>
-            <p>C & C++, JAVA</p>
-            <p>JAVASCRIPT, ANGULAR</p>
-            <p>HTML5 & CSS3</p>
-            <p>SQL, MYSQL</p>
-            <p>GIT & GITHUB</p>
-            <p>LINUX, BASH/SHELL</p>
-        </section>
-
-    </main>
-
-</div>
-
+    </div>
 </body>
 </html>

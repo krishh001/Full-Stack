@@ -1,0 +1,55 @@
+.main{
+    background-color: aquamarine;
+    color: rgb(229, 128, 5);
+}
+body{
+    background-color: rgb(35, 143, 107);
+}
+#card{
+    background-color: rgb(0, 96, 39);
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    h2{
+        color: rgb(2, 49, 13);
+    }
+}
+#card p{
+    background-color: blue;
+    border: 5px groove rgb(6, 6, 6);
+    color: aqua;
+    height: 230px;
+    overflow: auto;
+}
+#clickbtn{
+    background-color: rgb(152, 216, 165); 
+    /* border: 1px solid greenyellow; */
+    border-color: greenyellow;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgb(6, 6, 6);
+}
+#clickbtn:hover{
+    background-color: aliceblue;
+    color: green;
+}
+#clickbtn:active{
+    background-color: green;
+    color: aliceblue;
+}
+#btn{
+    background-color: pink;
+    color: rgb(155, 2, 155);
+    border: 2px solid #b7188f;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px #1b1b1e;
+}
+#btn:hover{
+    background-color: #b7188f;
+    color: aliceblue;
+}
+#btn:active{
+    background-color: aliceblue;
+    color: #b7188f;
+}
