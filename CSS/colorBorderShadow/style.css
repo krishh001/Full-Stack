@@ -15,9 +15,9 @@ body{
     }
 }
 #card p{
-    background-color: blue;
+    background-color: rgb(17, 206, 174);
     border: 5px groove rgb(6, 6, 6);
-    color: aqua;
+    color: rgb(1, 98, 74);
     height: 230px;
     overflow: auto;
 }

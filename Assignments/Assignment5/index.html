@@ -7,46 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-
-        <div class="login-box">
-
-            <h2>Login</h2>
-
-            <!-- Email -->
-            <div class="input-box">
-                <span class="icon">✉</span>
-                <input type="email" placeholder="Enter your email">
-            </div>
-
-            <!-- Password -->
-            <div class="input-box password-box">
-                <span class="icon">♙</span>
-                <input type="password" placeholder="Confirm a password">
-                <span class="eye">◉</span>
-            </div>
-
-            <!-- Remember + Forgot -->
-            <div class="options">
-                <label>
-                    <input type="checkbox">
-                    <span>Remember me</span>
-                </label>
-
-                <a href="#">Forgot password?</a>
-            </div>
-
-            <!-- Login Button -->
-            <button class="login-btn">Login Now</button>
-
-            <!-- Signup -->
-            <p class="signup">
-                Don't have an account?
-                <a href="#">Signup now</a>
-            </p>
-
+    <div class="login">
+        <h2>login</h2>
+        <div id="email">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
         </div>
-
+        
+        <div id="password">
+            <input type="password" name="password" id="password" placeholder="Confirm a password">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <span>Remember me</span>
+        </div>
+        <div class="checkbox">
+            <label for="forgot">Forgot password?</label>
+        </div>
+        <button>Login Now</button>
     </div>
 </body>
 </html>
