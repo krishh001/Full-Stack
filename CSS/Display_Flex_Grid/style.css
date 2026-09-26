@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 #outer{
     border: 1px solid #000;
     display: flex;
@@ -45,4 +45,10 @@
     background-color: red;
     font-size: xx-large;
     font-weight: 900;
+}
+#personal-outer{
+    grid-template-columns: auto auto auto auto;
+}
+.a{
+    /* grid-template-columns: auto auto auto auto; */
 }
