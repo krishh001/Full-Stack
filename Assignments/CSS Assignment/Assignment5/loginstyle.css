@@ -11,30 +11,46 @@ body{
     border: 1px solid #000;
     border-radius: 5px;
     padding: 20px;
+    margin-top: 60px;
 }
-.login:h2{
-    text-align: left;
+h2{
+    margin-left: -230px;
+    color: rgb(58, 58, 58);
 }
 #email{
-    width: 250px;
-    padding: 10px;
+    width: 280px;
+    padding: 5px;
 }
 #password{
-    width: 250px;
-    padding: 10px;
+    width: 280px;
+    padding: 5px;
 }
-.checkbox{
+/* .checkbox{
     color: gray;
     display: inline-block;
+    margin: 20px;
+    font-size: small;
+}  */
+#checkbox-div{
+    color: gray;
+    display: grid;
+    grid-template-columns: auto auto;
     margin: 15px;
     font-size: small;
-    
+}
+#A{
+    margin-top: -35px;
+    margin-left: -48px;
+}
+#B{
+    margin-top: -30px;
+    margin-right: -35px;
 }
 label{
     color: dodgerblue;
 }
 button{
-    width: 270px;
+    width: 280px;
     padding: 10px;
     background-color: dodgerblue;
     color: aliceblue;
