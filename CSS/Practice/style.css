@@ -1,8 +1,60 @@
-.d{
-    display: inline-block;
-    grid-template-columns: auto auto auto auto;
-
+*{
+    margin: 2px;
+    padding: 0;
 }
+.outer1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 8px;
+}
+.outer2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.outer3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.outer4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.outer5{
+    
+}
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.A{
+    /* margin-left: 30px; */
+    display: flex;
+}
+.B{
+    display: flex;
+    margin-left: 46px;
+}
+.C{
+    display: flex;
+    input{
+        margin-left: 44px;
+    }
+}
+.D{
+    display: flex;
+    margin-left: -39px;
+    input{
+        margin-left: 5px;
+    }
+}
+.button1{
+    margin-left: 45%;
+}
+/* .button2{
+    
+} */
 
 
                        
