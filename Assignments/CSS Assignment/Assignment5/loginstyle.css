@@ -27,6 +27,8 @@ body{
     color: gray;
     display: inline-block;
     margin: 15px;
+    font-size: small;
+    
 }
 label{
     color: dodgerblue;
@@ -35,6 +37,14 @@ button{
     width: 270px;
     padding: 10px;
     background-color: dodgerblue;
+    color: aliceblue;
     border: 1px solid dodgerblue;;
     border-radius: 5px;
+}
+#already{
+    color: gray;
+    font-size: small;
+}
+input{
+    border: none;
 }

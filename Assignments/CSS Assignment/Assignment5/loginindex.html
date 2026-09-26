@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./loginstyle.css">
 </head>
 <body>
     <div class="login">
         <h2>login</h2>
         <div id="email">
             <input type="email" name="email" id="email" placeholder="Enter your email">
+            <hr>
         </div>
+        
         
         <div id="password">
             <input type="password" name="password" id="password" placeholder="Confirm a password">
+            <hr>
         </div>
         <div class="checkbox">
             <input type="checkbox" name="checkbox" id="checkbox">
@@ -24,6 +27,9 @@
             <label for="forgot">Forgot password?</label>
         </div>
         <button>Login Now</button>
+        <div id="already">
+        <p>Don't have an account? <a href="./registerindex.html">Register now</a></p>
+        </div>
     </div>
 </body>
 </html>

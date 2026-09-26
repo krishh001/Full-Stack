@@ -1,0 +1,55 @@
+body{
+    background-color: dodgerblue;
+    text-align: center;
+}
+.register{
+    background-color: white;
+    display: inline-block;
+    /* text-align: center; */
+    width: 300px;
+    height: 420px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+}
+.register:h2{
+    margin-left: -100px;
+    color: rgb(87, 85, 85);
+}
+/* #name{
+    width: 250px;
+    padding: 10px;
+}
+#email{
+    width: 250px;
+    padding: 10px;
+}
+#password{
+    width: 250px;
+    padding: 10px;
+} */
+.checkbox{
+    color: gray;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    margin-left: -105px;
+    font-size: small;
+}
+label{
+    color: dodgerblue;
+}
+button{
+    width: 270px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: 1px solid dodgerblue;;
+    border-radius: 5px;
+}
+#already{
+    color: gray;
+    font-size: small;
+}
+input{
+    border: none;
+}
