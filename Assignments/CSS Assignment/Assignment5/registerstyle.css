@@ -15,7 +15,8 @@ body{
 }
 h2{
     margin-left: -160px;
-    color: rgb(58, 58, 58);
+    color: rgb(79, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #name{
     width: 285px;
