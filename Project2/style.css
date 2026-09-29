@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 242, 255);
+}
+#header{
+    background-color: rgb(249, 242, 255);
+    color: #0b1437;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+}
+#header h1{
+    margin-left: 60px;
+    font-size: 25px;
+}
+#header span{
+    color: #2563eb;
+    font-family: "Kanit", sans-serif;
+}
+#menu-items{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    margin-right: 50px;
+    color: #667085;
+}
+#menu-items button{
+    margin-right: 20px;
+    border: 1px;
+    border-radius: 7px;
+    padding: 10px 21px;
+    background: linear-gradient(90deg, #2563eb, #5b3fc4);
+    color: aliceblue;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+}
+.box1{
+    background-color: rgb(249, 242, 255);
+    font-family: "Sora", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.box1{
+    li{
+      color: #2563eb;
+      font-weight: 600;
+      font-family: "Sora", sans-serif;
+      font-size: small;
+      letter-spacing: 2px;
+    }
+}
+.box1-paragraph{
+    color: #667085;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+.box1{
+    span{
+        color: #2563eb;
+    }
+    .button1{
+        border: 1px;
+        border-radius: 7px;
+        padding: 18px 30px;
+        background: linear-gradient(90deg, #2563eb, #5b3fc4);
+        color: aliceblue;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: "Sora", sans-serif;
+    }
+    .button2{
+        border: 1px solid #667085;
+        border-radius: 7px;
+        padding: 18px 30px;
+        background-color: #fff;
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        font-weight: 600;
+        font-family: "Sora", sans-serif;
+    }
+}
+/* box2 */
+.box2{
+    width: 70%;
+    height: 370px;
+    background-color: #fff;
+    margin-right: 100px;
+    margin-top: 90px;
+    border-radius: 20px;
+    line-height: 10px;
+    /* row-gap: 20px; */
+    button{
+        background-color: rgb(249, 242, 255);
+        color: #2563eb;
+        margin-top: 25px;
+        margin-left: 85%;
+        padding: 7px 13px;
+        border: 1px;
+        border-radius: 14px;
+    }
+    .line1{
+        background-color: rgb(235, 235, 255);
+        color: rgb(235, 235, 255);
+        width: 83%;
+        border-radius: 8px;
+        margin-top: 13px;
+        margin-left: 25px;
+    }
+    .line2{
+        background-color: rgb(235, 235, 255);
+        color: rgb(235, 235, 255);
+        width: 63%;
+        border-radius: 8px;
+        margin-top: 13px;
+        margin-left: 25px;
+    }
+    .line3{
+        background: linear-gradient(90deg, rgb(235, 235, 255), rgb(249, 242, 255));
+        /* background-color: rgb(249, 242, 255); */
+        color: rgb(235, 235, 255);
+        width: 90%;
+        height: 20%;
+        border-radius: 8px;
+        margin-top: 13px;
+        margin-left: 25px;
+    }
+    .div1{
+        /* display: inline-block; */
+        /* display: grid;
+        grid-template-columns: auto auto; */
+        background-color: rgb(235, 235, 255);
+        color: rgb(235, 235, 255);
+        width: 217px;
+        height: 120px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    .div2{
+        /* display: inline-block; */
+        /* display: grid;
+        grid-template-columns: auto auto; */
+        background-color: rgb(249, 242, 255);
+        color: rgb(249, 242, 255);
+        width: 217px;
+        height: 120px;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .DIV{
+        margin-left: 25px;
+        display: flex;
+    }
+}
+section{
+    display: flex;
+}
