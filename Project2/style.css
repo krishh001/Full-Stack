@@ -533,3 +533,16 @@ body{
         color: #0e02f9;
     }
 }
+.section-4{
+    border: 2px solid #f90202;
+    padding: 90px 0px;
+}
+.section-4-image{
+    padding: 20px;
+    border: 2px solid #1905f4;
+}
+#talking-image{
+    width: 534px;
+    height: 427.2px;
+    border-radius: 20px;
+}
