@@ -424,7 +424,6 @@ body{
         font-size: 22px;
         font-family: "Sora", sans-serif;
         font-weight: 700;
-        /* margin-bottom: 10px; */
     }
 }
                   /* section 3 */
@@ -533,16 +532,160 @@ body{
         color: #0e02f9;
     }
 }
+                 /* section 4 */
 .section-4{
     border: 2px solid #f90202;
-    padding: 90px 0px;
+    padding: 80px 40px;
+    display: flex;
+    background-color: #fff;
+    gap: 10px;
 }
 .section-4-image{
     padding: 20px;
-    border: 2px solid #1905f4;
+    /* border: 2px solid #1905f4; */
+    .image-div{
+        position: absolute;
+        padding: 18px 18px;
+        z-index: 98;
+        border-radius: 20px;
+        background-color: #fff;
+        /* border: 2px solid #91f801; */
+        margin-left: -23px;
+        margin-top: -50px;
+        display: flex;
+        gap: 10px;
+        box-shadow: 2px 2px 6px rgba(128, 128, 128, 0.322);
+        .badge{
+            padding: 5px 15px;
+            /* border: 1px solid #04fbe6; */
+            background-color: #2564eb1b;
+            color: #1905f4;
+            font-family: "Google Sans", sans-serif;
+            font-size: small;
+            font-weight: 600;
+            text-align: center;
+            border-radius: 10px;
+            .badge-d{
+                margin-top: 5px;
+            }
+        }
+        .badge-para{
+            /* border: 1px solid #0473fc; */
+            font-family: "Sora", sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            span{
+                font-size: 12px;
+                font-weight: 400;
+                color: #667085;
+            }
+        }
+    }
 }
 #talking-image{
     width: 534px;
     height: 427.2px;
     border-radius: 20px;
+}
+.section-4-texts{
+    padding: 20px;
+    h2{
+        font-size: 30px;
+        font-family: "Sora", sans-serif;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-top: 10px;
+        color: #667085;
+        font-family: "Sora", sans-serif;
+    }
+    .list{
+        font-family: "Sora", sans-serif;
+        .lists{
+            margin-top: 25px;
+            display: flex;
+            gap: 10px;
+            .icon{
+                background-color: #2564eb1b;
+                color: #1905f4;
+                border-radius: 50%;
+                padding: 3px;
+                width: 25px;
+                height: 25px;
+                text-align: center;
+            }
+            .line{
+                color: #667085;
+                span{
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: black;
+                }
+            }
+        }
+    }
+    button{
+        margin-top: 25px;
+        margin-right: 20px;
+        border: 1px;
+        border-radius: 7px;
+        padding: 15px 21px;
+        background: linear-gradient(90deg, #2563eb, #5b3fc4);
+        color: aliceblue;
+        font-weight: 550;
+        font-size: 17px;
+        font-family: "Sora", sans-serif;
+    }
+}
+                /*section 5*/
+.section-5{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: "Sora", sans-serif;
+    background-color: #fff;
+    padding: 0px 40px;
+    .section-5-div{
+        text-align: center;
+        padding: 43px;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    p{
+        color: #667085;
+        font-family: "Google Sans Flex", sans-serif;
+        font-size: small;
+        font-weight: 500;
+    }
+}
+                /*section 6*/
+.section-6{
+    border: 2px solid #0901ff;
+    
+    .section-6-div-1{
+        text-align: center;
+        padding: 40px;
+        .blue-line{
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            font-size: small;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: #2563eb;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 15px;
+            background-color: #2564eb1b;
+            margin-bottom: 15px;
+        }
+        h2{
+            font-size: 33px;
+            font-family: "Sora", sans-serif;
+        }
+        p{
+            font-family: "Sora", sans-serif;
+            color: #667085da;
+        }
+    }
 }
