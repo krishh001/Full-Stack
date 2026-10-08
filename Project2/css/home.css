@@ -401,8 +401,9 @@ body{
 .section-2{
     /* border: 2px solid #690000; */
     margin-top: 80px;
-    width: 1290px;
+    width: 100%;     /*1290px*/
     background-color: #fff;
+    padding: 15px;
 }
 .section2-div1{
     text-align: center;
@@ -418,7 +419,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     justify-content: space-around;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     .div2-boxes{
         color: #66708593;
         font-size: 22px;
@@ -431,6 +432,7 @@ body{
     /* border: 2px solid #49fd03; */
     padding: 90px 0px;
     background-color: #f9f9ff;
+    width: 100%;
 }
 
 .blue-line{
@@ -539,6 +541,7 @@ body{
     display: flex;
     background-color: #fff;
     gap: 10px;
+    width: 100%;
 }
 .section-4-image{
     padding: 20px;
@@ -639,6 +642,8 @@ body{
 }
                 /*section 5*/
 .section-5{
+    /* border: 2px solid #d6fc01; */
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     font-family: "Sora", sans-serif;
@@ -661,8 +666,10 @@ body{
 }
                 /*section 6*/
 .section-6{
-    /* border: 2px solid #0901ff; */
-    
+    border: 2px solid #0901ff;
+    background-color: #fff;
+    width: 100%;
+    padding: 40px 50px;
     .section-6-div-1{
         text-align: center;
         padding: 40px;
@@ -686,6 +693,36 @@ body{
         p{
             font-family: "Sora", sans-serif;
             color: #667085da;
+            line-height: 50px;
         }
     }
+    .section-6-div-2{
+        display: flex;
+        gap: 10px;
+        font-family: "Sora", sans-serif;
+        .section-6-div{
+            padding: 20px;
+        }
+        h1{
+            color: #2563eb;
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        h2{
+            color: #3b3c3ebe;
+            font-size: 30px;
+            font-weight: 600;
+            
+        }
+        p{
+            color: #646567c5;
+            font-weight: 500px;
+            line-height: 25px;
+        }
+    }
+}
+                /* section 7 */
+.section-7{
+    
 }
