@@ -640,6 +640,9 @@ body{
         font-family: "Sora", sans-serif;
     }
 }
+hr{
+    border: 1px solid #80848f29;
+}
                 /*section 5*/
 .section-5{
     /* border: 2px solid #d6fc01; */
@@ -667,7 +670,7 @@ body{
                 /*section 6*/
 .section-6{
     border: 2px solid #0901ff;
-    background-color: #fff;
+    background-color: #f9f9ff;
     width: 100%;
     padding: 40px 50px;
     .section-6-div-1{
