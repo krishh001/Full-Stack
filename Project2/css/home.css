@@ -47,17 +47,31 @@ body{
     color: #2563eb;
     font-family: "Kanit", sans-serif;
 }
-#menu-items{
+#menu-items {
     display: flex;
-    gap: 45px;
+    gap: 20px;
     align-items: center;
     margin-right: 50px;
-    color: #938861;
+    
     span{
         color: black;
     }
+    #p{
+        border-radius: 5px;
+        border: 1px;
+        background-color: transparent;
+        color: #938861;
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Sora", sans-serif;
+    }
 }
-#menu-items button{
+#menu-items #p:hover{
+    color: black;
+    background-color: rgb(249, 242, 255);
+}
+#menu-items #button{
     margin-right: 20px;
     border: 1px;
     border-radius: 7px;
@@ -66,6 +80,11 @@ body{
     color: aliceblue;
     font-weight: 500;
     font-family: "Sora", sans-serif;
+}
+#menu-items #button:hover{
+    transform: translateY(-3px);
+    transition: transform 0.5s;
+    box-shadow: 2px 2px 10px 2px #2564eb7d;
 }
 
 .box1{
@@ -115,7 +134,9 @@ body{
         font-family: "Sora", sans-serif;
     }
     .button1:hover{
-        background-color: white;
+        transform: translateY(-3px);
+        transition: transform 0.5s;
+        box-shadow: 2px 2px 10px 2px #2564eb7d;
     }
     .button2{
         border: 1.5px solid rgba(128, 128, 128, 0.269);
@@ -126,6 +147,13 @@ body{
         font-size: 17px;
         font-weight: 600;
         font-family: "Sora", sans-serif;
+    }
+    .button2:hover{
+        transform: translateY(-3px);
+        transition: transform 0.5s;
+        box-shadow: 2px 2px 10px 2px white;
+        border: 1px solid #ffffff;
+        color: #8d94a5;
     }
     
 }
@@ -625,7 +653,7 @@ body{
             }
         }
     }
-    button{
+    #section-4-button{
         margin-top: 25px;
         margin-right: 20px;
         border: 1px;
@@ -636,6 +664,11 @@ body{
         font-weight: 550;
         font-size: 17px;
         font-family: "Sora", sans-serif;
+    }
+    #section-4-button:hover{
+        transform: translateY(-3px);
+    transition: transform 0.5s;
+    box-shadow: 2px 2px 10px 2px #2564eb7d;
     }
 }
 hr{
@@ -783,11 +816,17 @@ hr{
     width: 100%;
     position: relative;
 }
-.Box img {
+
+#imageBox {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.5s ease;
+}
+
+.Box:hover #imageBox {
+    transform: scale(1.08);
 }
 .Box-div {
     position: absolute;
@@ -801,14 +840,22 @@ hr{
     z-index: 2;
 }
 .Box-div p {
-    color: #c0c6d1;
+    color: transparent;
     font-size: small;
     margin: 0 0 8px;
     font-weight: 400;
+    transition: color 0.4s ease;
+}
+.Box:hover .Box-div p{
+    color: #919db5;
 }
 .Box-div h4 {
-    color: #ffffff;
+    color: transparent;
     font-size: large;
+    transition: color 0.4s ease;
+}
+.Box:hover .Box-div h4 {
+    color: white;
 }
                 /*Section 8*/
 .section-8 {
@@ -962,7 +1009,7 @@ hr{
     line-height: 50px;
     font-size: 20px;
 }
-.button1{
+#section-9-button{
     border: 1px;
     border-radius: 7px;
     padding: 15px 30px;
@@ -971,7 +1018,12 @@ hr{
     font-size: 17px;
     font-weight: 600;
     font-family: "Sora", sans-serif;
-    
+    box-shadow: 2px 2px 10px 2px #2564eb7d;
+}
+#section-9-button:hover{
+    transform: translateY(-3px);
+    transition: transform 0.5s;
+    box-shadow: 2px 2px 10px 2px #2564eb7d;
 }
 .footer {
     /* border: 2px solid #fd0303; */
@@ -1089,9 +1141,12 @@ hr{
     font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 2px 2px 10px 2px #2564eb7d;
 }
 .newsletter-form button:hover {
-    opacity: 0.85;
+    transform: translateY(-3px);
+    transition: transform 0.5s;
+    box-shadow: 2px 2px 10px 2px #2564eb7d;
 }
 @media (max-width: 1100px) {
     .footer-container {
