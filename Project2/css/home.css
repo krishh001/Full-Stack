@@ -1032,6 +1032,28 @@ hr{
     padding: 60px 45px;
     color: #ffffff;
     font-family: "Sora", sans-serif;
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px 0px 0px;
+        p {
+          font-size: small;
+          color: #667085;
+          a{
+            text-decoration: none;
+            color: white;
+          }
+        }
+        .paragraph-div{
+           display: flex;
+           gap: 20px;
+           font-size: small;
+           a{
+               text-decoration: none;
+               color: #667085;
+           }
+        }
+    }
 }
 .footer-container {
     /* border: 2px solid #78fd03; */
@@ -1148,6 +1170,17 @@ hr{
     transition: transform 0.5s;
     box-shadow: 2px 2px 10px 2px #2564eb7d;
 }
+
+/* .back-button{
+    background: linear-gradient(90deg, #2563eb, #5b3fc4);
+    font-size: larger;
+    color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: none;
+    
+} */
 @media (max-width: 1100px) {
     .footer-container {
         grid-template-columns: repeat(2, 1fr);
