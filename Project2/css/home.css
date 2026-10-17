@@ -78,7 +78,11 @@ footer{
     color: #938861;
     font-size: 14px;
     font-weight: 500;
-    /* white-space: nowrap; */
+    white-space: nowrap;
+}
+#menu-items #p a {
+    text-decoration: none;
+    color: inherit;
 }
 #menu-items #p:hover {
     color: #0b1437;
@@ -91,7 +95,7 @@ footer{
     background: linear-gradient(90deg, #2563eb, #5b3fc4);
     color: #fff;
     font-weight: 500;
-    /* white-space: nowrap; */
+    white-space: nowrap;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 #menu-items #button:hover,
