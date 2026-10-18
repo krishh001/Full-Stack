@@ -6,6 +6,12 @@
     <title>Pricing</title>
     <link rel="stylesheet" href="../css/pricing.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    /> -->
 </head>
 <body>
     <header id="header">
@@ -22,13 +28,140 @@
       </div>
     </header>
 
-    <main>
-        <section class="section-1">
+    <section class="section-1">
             <h1>Simple, Transparent Pricing</h1>
             <br>
             <p><a href="../home.html">Home</a> / <span>Pricing</span></p>
-        </section>
-    </main>
+    </section>
+    <section class="section-2">
+      <div class="section-2-div-1">
+        <span class="blue-line">● Retainer plans</span>
+        <h2>Choose the plan that fits your stage</h2>
+        <p>All plans include a dedicated project lead, weekly demos and a shared Slack channel. Cancel or switch plans anytime.</p>
+      </div>
+      <div class="section-2-div-2">
+        <span class="span">Monthly</span>
+        <!-- <div class="form-check form-switch">
+          <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="switchCheckDefault"
+          />
+        </div> -->
+        <i class="bi bi-toggle-on"></i>
+        <span class="form-check-label" for="switchCheckDefault" >Yearly
+          <span class="Blue-line">Save 15%</span>
+        </span>
+      </div>
+      <div class="section-1-div-3">
+        <div class="section-1-div-3-i">
+          <div class="pricing">
+            <h2>Starter</h2>
+            <p>For early-stage teams validating an MVP.</p>
+            <p><span>$4,500</span>/mo</p>
+          </div>
+          <div class="pricing-details">
+            <p><i class="bi bi-check-circle-fill"></i> 1 dedicated designer</p>
+            <p><i class="bi bi-check-circle-fill"></i> Up to 40 hours/month</p>
+            <p><i class="bi bi-check-circle-fill"></i> Weekly progress demos</p>
+            <p><i class="bi bi-check-circle-fill"></i> Shared Slack channel</p>
+            <p><i class="bi bi-x-circle"></i> Dedicated engineer</p>
+            <p><i class="bi bi-x-circle"></i> Priority support</p>
+          </div>
+          <button id="pricing-button-i">Get Started</button>
+        </div>
+        <div class="section-1-div-3-ii">
+          <div class="pricing">
+            <h2>Growth</h2>
+            <p>For scaling teams shipping every sprint.</p>
+            <p><span>$9,500</span>/mo</p>
+          </div>
+          <div class="pricing-details">
+            <p><i class="bi bi-check-circle-fill"></i> 1 designer + 1 engineer</p>
+            <p><i class="bi bi-check-circle-fill"></i> Up to 100 hours/month</p>
+            <p><i class="bi bi-check-circle-fill"></i> Twice-weekly demos</p>
+            <p><i class="bi bi-check-circle-fill"></i> Shared Slack channel</p>
+            <p><i class="bi bi-check-circle-fill"></i> Priority support (24h)</p>
+            <p><i class="bi bi-x-circle"></i> Dedicated QA engineer</p>
+          </div>
+          <button id="pricing-button-ii">Get Started</button>
+        </div>
+        <div class="section-1-div-3-iii">
+          <div class="pricing">
+            <h2>Enterprice</h2>
+            <p>For complex, multi-team product organizations.</p>
+            <p><span>Custom</span></p>
+          </div>
+          <div class="pricing-details">
+            <p><i class="bi bi-check-circle-fill"></i> Full pod (design + dev + QA)</p>
+            <p><i class="bi bi-check-circle-fill"></i> Unlimited hours</p>
+            <p><i class="bi bi-check-circle-fill"></i> Daily standups</p>
+            <p><i class="bi bi-check-circle-fill"></i> Dedicated account manager</p>
+            <p><i class="bi bi-check-circle-fill"></i> Priority support (4h)</p>
+            <p><i class="bi bi-check-circle-fill"></i> Custom SLAs & contracts</p>
+          </div>
+          <button id="pricing-button-i">Contact Sales</button>
+        </div>
+      </div>
+      <p id="last-para">All plans include a 14-day satisfaction guarantee. Need a one-off project instead? <a href="./contact.html">Get a custom quote →</a></p>
+    </section>
+    <section class="section-3">
+      <div class="section-3-div-1">
+        <span class="blue-line">● Compare plans</span>
+        <h2>Full feature breakdown</h2>
+      </div>
+      <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="feature">Feature</th>
+                    <th>Starter</th>
+                    <th class="growth">Growth</th>
+                    <th>Enterprise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="feature">Dedicated designer</td>
+                    <td><span class="check">✓</span></td>
+                    <td><span class="check">✓</span></td>
+                    <td><span class="check">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="feature">Dedicated engineer</td>
+                    <td class="dash">−</td>
+                    <td><span class="check">✓</span></td>
+                    <td><span class="check">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="feature">QA engineer</td>
+                    <td class="dash">−</td>
+                    <td class="dash">−</td>
+                    <td><span class="check">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="feature">Monthly hours</td>
+                    <td>40</td>
+                    <td>100</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td class="feature">Progress demos</td>
+                    <td>Weekly</td>
+                    <td>Twice weekly</td>
+                    <td>Daily</td>
+                </tr>
+                <tr>
+                    <td class="feature">Support response time</td>
+                    <td>48h</td>
+                    <td>24h</td>
+                    <td>4h</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
 
     <footer class="footer">
   <div class="footer-square">
@@ -92,5 +225,10 @@
 *      <i class="bi bi-arrow-up"></i>*
 *  </button> -->
 </footer>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>

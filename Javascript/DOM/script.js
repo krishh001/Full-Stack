@@ -21,3 +21,31 @@ function submit(){
     console.log("DOB : ", dob);
     console.log("Gender : ", gd);
 }
+
+function submit2() {
+  const formData = [];
+
+  document.querySelectorAll("input, select").forEach((item) => {
+    formData.push(item.value.trim());
+  });
+
+  const fieldName = [];
+  document.querySelectorAll("input, select").forEach((item) => {
+    fieldName.push(item.name);
+  });
+
+  for (var i = 0; i < fieldName.length; i++) {
+    console.log(fieldName[i] + " : " + formData[i]);
+  }
+}
+
+//traversing
+const coursediv = document.getElementById("course");
+console.log(coursediv);
+
+const heading = document.querySelector("h2");
+console.log(heading);
+
+console.log(heading.parentElement.firstElementChild);
+console.log(heading.parentElement.children);
+console.log(heading.parentElement.lastElementChild);
