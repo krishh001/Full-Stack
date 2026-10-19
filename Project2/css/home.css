@@ -394,8 +394,7 @@ footer{
 .div2-boxes i {
     margin-right: 7px;
 }
-.blue-line,
-.Blue-line {
+.blue-line {
     display: inline-block;
     margin-bottom: 15px;
     padding: 8px 15px;
@@ -679,6 +678,19 @@ hr {
     width: 100%;
     padding: 55px clamp(24px, 5vw, 75px) 75px;
     background: #fff;
+}
+.blue-line, .Blue-line{
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    background: #2564eb1b;
+    color: #2563eb;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 .Square1-div {
     display: flex;
