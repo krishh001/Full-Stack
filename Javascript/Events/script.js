@@ -88,7 +88,7 @@ document.getElementById("fullname").addEventListener("keydown", (e) =>{
 
 //form
 document.getElementById("loginform").addEventListener("submit", (e) =>{
-    // e.preventDefault();
-    console.log("Login Don");
+    e.preventDefault();
+    console.log("Login Done");
     //for hiding data from link we remove e.preventDefault();
 });
