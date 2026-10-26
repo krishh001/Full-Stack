@@ -53,14 +53,3 @@ parentCard.addEventListener("click", (e) => {
     console.log(e.target.textContent);
   }
 });
-
-//revision
-const parentcard = document.getElementById("Eventdelegation");
-
-parentCard.addEventListener("click", (e) => {
-  //   console.log(e.target.tagName);
-
-  if (e.target.tagName === "DIV") {
-    console.log(e.target.textContent);
-  }
-});
