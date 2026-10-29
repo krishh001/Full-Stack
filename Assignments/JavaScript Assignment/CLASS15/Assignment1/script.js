@@ -1,92 +1,85 @@
-//String Methods & Manipulation:-
+                                             //part-1
 
-const str = "krishna verma";
+//Que no.-1 Create a variable named studentName containing a name with extra spaces and inconsistent letter casing, such as " rAHUL shARma ".
 
-//charAt and at
+const student = "   kRISHNa vERma   ";
 
-console.log(str.charAt(3));
-console.log(str.at(6));
+//Que no.-2 Use trim() to remove whitespace from both ends and toUpperCase() or toLowerCase() to format the name.
+console.log(student.trim());
 
-// const arr = [10, 24, 32, 53, 46, 76, 89, 25, 15];
-// console.log(arr.at[2]);
-// console.log(arr.charAt[2]);                 not usefull
+console.log(student.toUpperCase());
+console.log(student.toLowerCase());
 
-//slice
+//Que no.-3 Create a variable named courseDescription containing a sentence about JavaScript.
 
-const str2 = str.slice(2, 6);
-console.log(str2);
+const courseDescription = "JavaScript (JS) is a versatile, high-level programming language.";
 
-//substring
+//Que no.-4 Use charAt() and at() to display selected characters from the sentence.
 
-const S_str = str.substring(2, 5);
-console.log(S_str);
+console.log(courseDescription.charAt(3));
+console.log(courseDescription.at(6));
 
-//indexOf()
+//Que no.-5 Use slice() and substring() to extract different portions of the course description.
 
-const str3 = str.indexOf("verma");
-console.log(str3);
+console.log(courseDescription.slice(2, 6));
+console.log(courseDescription.substring(2, 5));
 
-//lastIndexOf()
+//Que no.-6 Use indexOf() and lastIndexOf() to find the positions of a word or character.
 
-const str4 = str.lastIndexOf("verma");
-console.log(str4);
+const student1 = "krishna verma";
+console.log(student1.indexOf("verma"));
+console.log(student1.lastIndexOf("krishna"));
 
-//includes()
+//Que no.-7 Use includes() to check whether the description contains "JavaScript".
 
-const str5 = str.includes("na");
-console.log(str5);
+console.log(courseDescription.includes("JavaScript"));
 
-//startsWith() and endsWith()
+//Que no.-8 Use startsWith() and endsWith() to check the beginning and ending of a sample filename.
 
-const str6 = str.startsWith("krishna");
-const str7 = str.endsWith("kumar");
-console.log(str6);
-console.log(str7);
+console.log(student1.startsWith("krishna"));
+console.log(student1.endsWith("kumar"));
 
-//replace()
+                                             //part-2
 
-const str8 = str.replace("verma", "kumar");
-console.log(str8);
+//Que no.-1 Create a variable named courseMessage containing a sentence in which the word "HTML" appears at least twice.
 
-//replaceAll()
+const courseMessage = "HTML is thestandard markup language, HTML acts as the structural skeleton of a website.";
 
-const str9 = str.replaceAll("verma", "kumar");
-console.log(str9);
+//Que no.-2 Use replace() to replace the first occurrence of "HTML" with "JavaScript".
 
-//toUpperCase()
+console.log(courseMessage.replace("HTML", "JavaScript"));
 
-const str10 = str.toUpperCase();
-console.log(str10);
+//Que no.-3 Use replaceAll() to replace the every occurrence of "HTML" with "JavaScript".
 
-//toLowerCase()
+console.log(courseMessage.replaceAll("HTML", "JavaScript"));
 
-const str11 = str.toLowerCase();
-console.log(str11);
+//Que no.-4 Use toUpperCase() and toLowerCase() to display the message in different letter cases.
 
-//trim()
+console.log(courseMessage.toUpperCase());
+console.log(courseMessage.toLowerCase());
 
-const name = "   Rahul Sharma   ";
-console.log(name.trim());
+//Que no.-5 Create two variables containing a greeting and a student group name, then combine them using concat().
 
-//trimStart() and trimEnd()
+const greeting ="hello";
+const groupName ="FRAG";
 
-const text = "   Hello   ";
-console.log(text.trimStart());
-console.log(text.trimEnd());
+console.log(greeting.concat(" ", groupName));
 
-//concat()
+//Que no.-6 Use repeat() to generate a separator containing at least five asterisks.
 
-const first = "Hello";
-const second = "Students";
-
-console.log(first.concat(" ", second));
-
-//repeat()
-
-console.log("Hi ".repeat(3));
 console.log("*".repeat(5));
 
-//split()
+//Que no.-7 Create a comma-separated string of course names and use split(",") to convert it into an array.
 
-const subjects = "HTML,JavaScript,React";
-console.log(subjects.split(","));
+const courseNames = "HTML,JavaScript,React";
+console.log(courseNames.split(","));
+
+//Que no.-8 Create a sentence containing several words and use split(" ") to separate it into an array of words.
+
+const About = "Myself Krishna Verma.";
+console.log(About.split(" "));
+
+//Que no.-9 Demonstrate trimStart() and trimEnd() on a string containing extra whitespace.
+
+console.log(student.trimStart());
+console.log(student.trimEnd());
